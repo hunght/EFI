@@ -1,0 +1,70 @@
+592:886  592:039  Found BIOS RSDP at F00E0
+592:886  0:000  Printing ACPI tables from RSDP F00E0 ...
+592:886  0:000   F00E0: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+592:886  0:000    (Xsdt: 0, Rsdt: 0)
+592:886  0:000   No Rsdt and Xsdt - exiting.
+592:886  0:000  Found UEFI Acpi 2.0 RSDP at BAFFE014
+592:886  0:000  Saving ACPI tables from RSDP BAFFE014 to EFI\CLOVER\ACPI\origin ...
+592:886  0:000   BAFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+592:904  0:018    (Xsdt: BAFFE120, Rsdt: BAFFE0AC)
+592:904  0:000    BAFFE120: 'XSDT', 'QA09   ', Rev: 1, Len: 140 -> XSDT.aml
+592:915  0:011    BAFFE0AC: 'RSDT', 'QA09   ', Rev: 1, Len: 88 -> RSDT.aml
+592:925  0:010    Tables in Xsdt: 13
+592:925  0:000    0. BAFED000: 'FACP', 'QA09   ', Rev: 3, Len: 244 -> FACP.aml
+592:936  0:010        (Dsdt: BAFF0000, Facs: BAF40000, XDsdt: BAFF0000, XFacs: BAF40000)
+592:936  0:000        BAFF0000: 'DSDT', 'SNB-CPT', Rev: 2, Len: 38773 -> DSDT.aml
+592:949  0:013        BAF40000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+592:959  0:009    1. BAFFD000: 'SLIC', 'QA09   ', Rev: 1, Len: 374 -> SLIC.aml
+592:969  0:010    2. BAFFC000: 'BOOT', '', Rev: 1, Len: 40 -> BOOT.aml
+592:979  0:010    3. BAFFA000: 'SSDT', 'PtidDevc', Rev: 1, Len: 4200 -> SSDT-0-PtidDevc.aml
+592:998  0:018    4. BAFEF000: 'ASF!', 'QA09   ', Rev: 32, Len: 165 -> ASF!.aml
+593:007  0:009    5. BAFEC000: 'HPET', 'QA09   ', Rev: 1, Len: 56 -> HPET.aml
+593:016  0:008    6. BAFEB000: 'APIC', 'QA09   ', Rev: 1, Len: 152 -> APIC.aml
+593:025  0:009    7. BAFEA000: 'MCFG', 'QA09   ', Rev: 1, Len: 60 -> MCFG.aml
+593:035  0:009    8. BAFE9000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1854 -> SSDT-1-Cpu0Ist.aml
+593:045  0:009    9. BAFE8000: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+ Found hidden SSDT 4 pcs
+593:045  0:000        * B8773018: 'pifc', '(2w¸', Rev: 24, Len: 0  70 69 66 63 00 00 00 00 18 F1 76 B8 00 00 00 00       * BAE18A98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 83 50 6D 52 65 66 00 Internal length = 771 -> SSDT-3x-ApIst.aml
+593:055  0:010        * BAE17718: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 1660  53 53 44 54 7C 06 00 00 01 FD 50 6D 52 65 66 00 Internal length = 1660 -> SSDT-4x-Cpu0Cst.aml
+593:067  0:012        * BAE16D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 F9 50 6D 52 65 66 00 Internal length = 281 -> SSDT-5x-ApCst.aml
+593:082  0:015   -> SSDT-2-CpuPm.aml
+593:093  0:010    10. BAFE7000: 'UEFI', 'QA09   ', Rev: 1, Len: 62 -> UEFI.aml
+593:102  0:009    11. BAFE6000: 'UEFI', 'COMBUF', Rev: 1, Len: 66 -> UEFI.aml
+593:120  0:017    12. BAFE5000: 'UEFI', 'QA09   ', Rev: 1, Len: 598 -> UEFI.aml
+593:139  0:019    Tables in Rsdt: 13
+593:139  0:000    0. BAFEE000: 'FACP', 'QA09   ', Rev: 1, Len: 116 -> RSDT-FACP.aml
+593:149  0:010        (Dsdt: BAFF0000, Facs: BAF40000)
+593:149  0:000        BAFF0000: 'DSDT', 'SNB-CPT', Rev: 2, Len: 38773
+593:150  0:001        BAF40000: 'FACS', Ver: 1, Len: 64
+593:150  0:000    1. BAFFD000: 'SLIC', 'QA09   ', Rev: 1, Len: 374
+593:150  0:000    2. BAFFC000: 'BOOT', '', Rev: 1, Len: 40
+593:150  0:000    3. BAFFA000: 'SSDT', 'PtidDevc', Rev: 1, Len: 4200
+593:150  0:000    4. BAFEF000: 'ASF!', 'QA09   ', Rev: 32, Len: 165
+593:150  0:000    5. BAFEC000: 'HPET', 'QA09   ', Rev: 1, Len: 56
+593:150  0:000    6. BAFEB000: 'APIC', 'QA09   ', Rev: 1, Len: 152
+593:150  0:000    7. BAFEA000: 'MCFG', 'QA09   ', Rev: 1, Len: 60
+593:150  0:000    8. BAFE9000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1854
+593:150  0:000    9. BAFE8000: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+593:150  0:000    10. BAFE7000: 'UEFI', 'QA09   ', Rev: 1, Len: 62
+593:150  0:000    11. BAFE6000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+593:150  0:000    12. BAFE5000: 'UEFI', 'QA09   ', Rev: 1, Len: 598
+593:150  0:000  Found UEFI Acpi 1.0 RSDP at BAFFE000
+593:150  0:000  Printing ACPI tables from RSDP BAFFE000 ...
+593:150  0:000   BAFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+593:150  0:000    (Rsdt: BAFFE038)
+593:150  0:000    BAFFE038: 'RSDT', 'QA09   ', Rev: 1, Len: 80
+593:150  0:000    Tables in Rsdt: 11
+593:150  0:000    0. BAFEE000: 'FACP', 'QA09   ', Rev: 1, Len: 116
+593:150  0:000        (Dsdt: BAFF0000, Facs: BAF40000)
+593:150  0:000        BAFF0000: 'DSDT', 'SNB-CPT', Rev: 2, Len: 38773
+593:152  0:001        BAF40000: 'FACS', Ver: 1, Len: 64
+593:152  0:000    1. BAFFA000: 'SSDT', 'PtidDevc', Rev: 1, Len: 4200
+593:152  0:000    2. BAFEF000: 'ASF!', 'QA09   ', Rev: 32, Len: 165
+593:152  0:000    3. BAFEC000: 'HPET', 'QA09   ', Rev: 1, Len: 56
+593:152  0:000    4. BAFEB000: 'APIC', 'QA09   ', Rev: 1, Len: 152
+593:152  0:000    5. BAFEA000: 'MCFG', 'QA09   ', Rev: 1, Len: 60
+593:152  0:000    6. BAFE9000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1854
+593:152  0:000    7. BAFE8000: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+593:152  0:000    8. BAFE7000: 'UEFI', 'QA09   ', Rev: 1, Len: 62
+593:152  0:000    9. BAFE6000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+593:152  0:000    10. BAFE5000: 'UEFI', 'QA09   ', Rev: 1, Len: 598

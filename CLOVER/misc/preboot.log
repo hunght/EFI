@@ -1,0 +1,294 @@
+0:100  0:100  MemLog inited, TSC freq: 2292550157
+0:100  0:000  
+0:100  0:000  Now is 25.10.2017,  19:16:27 (GMT)
+0:100  0:000  Starting Clover revision: 4259 on Phoenix Technologies Ltd. EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED | -D NO_GRUB_DRIVERS_EMBEDDED -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE5 -n 5 | OS: 10.12.6 | XCODE: 9.0.1]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,8BB4BAF3-A388-4449-A8C4-D617E6B41386,0x28,0x64000) @B8BF5098
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 2
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = 86D3
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:100  0:000  SmbiosTable.Type17->PartNumber = SP004GBSTU160N02  
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:100  0:000  SmbiosTable.Type17->Size = 2048MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = Samsung
+0:100  0:000  SmbiosTable.Type17->SerialNumber = B60C1BCE
+0:100  0:000  SmbiosTable.Type17->PartNumber = M471B5773DH0-CH9  
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'Dell System Inspiron N4110' with board '05TM8C'
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 756E6547 Model=206A7
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = Intel(R) Core(TM) i3-2350M CPU @ 2.30GHz
+0:100  0:000   The CPU not supported turbo
+0:100  0:000  MSR 0x35               20004
+0:100  0:000  MSR 0xE2 before patch 1E000404
+0:100  0:000  MSR 0xCE              00000800_60011700
+0:100  0:000  MSR 0x1A0             00850088
+0:100  0:000  corrected FLEX_RATIO = 0
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 23.0/8
+0:100  0:000  Turbo: 23/23/23/23
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 2
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2300 MHz
+0:100  0:000  TSC: 2300 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  PCI (00|00:1C.02) : 8086 1C14 class=060400
+0:100  0:000  PCI (00|02:00.00) : 1033 0194 class=0C0330
+0:100  0:000  PCI (00|00:02.00) : 8086 0116 class=030000
+0:100  0:000   - GFX: Model=Intel HD Graphics 3000 (Intel)
+0:100  0:000  PCI (00|00:1F.00) : 8086 1C4B class=060100
+0:100  0:000  PCI (00|00:1D.00) : 8086 1C26 class=0C0320
+0:100  0:000  PCI (00|00:1F.02) : 8086 1C03 class=010601
+0:100  0:000  PCI (00|00:1C.00) : 8086 1C10 class=060400
+0:100  0:000  PCI (00|00:1C.04) : 8086 1C18 class=060400
+0:100  0:000  PCI (00|00:1A.00) : 8086 1C2D class=0C0320
+0:100  0:000  PCI (00|01:00.00) : 14E4 4357 class=028000
+0:100  0:000   - WIFI: Vendor=Broadcom
+0:100  0:000  PCI (00|03:00.00) : 10EC 8136 class=020000
+0:100  0:000   - LAN: 0 Vendor=Realtek
+0:100  0:000  === [ GetDefaultSettings ] ================================
+0:100  0:000  Clover load options size = 48 bytes
+0:100  0:000  Clover started with option to boot boot.efi from Recovery HD
+0:116  0:015  EFI\CLOVER\config.plist loaded: Success
+0:116  0:000  === [ GetListOfThemes ] ===================================
+0:118  0:002  - [00]: black_green
+0:120  0:002  - [01]: embedded
+0:123  0:002  - [01]: random
+0:126  0:002  - [01]: BGM
+0:135  0:009  - [02]: metal
+0:143  0:008  === [ Found config plists ] ===============================
+0:145  0:001  - config.plist
+0:146  0:000  === [ GetEarlyUserSettings ] ==============================
+0:146  0:000  timeout set to 2
+0:146  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:146  0:000  KextsToPatch: 18 requested
+0:146  0:000   - [00]: IOBluetoothFamily (BCM Handoff) :: BinPatch :: data len: 9
+0:146  0:000   - [01]: IOGraphicsFamily (LoginWindow White) :: BinPatch :: data len: 5
+0:146  0:000   - [02]: IOGraphicsFamily (LoginWindow Black) :: BinPatch :: data len: 5
+0:146  0:000   - [03]: AppleUSBXHCI (XHCI - eliminate chip make check) :: BinPatch :: data len: 6
+0:146  0:000   - [04]: AppleUSBXHCI (XHCI - eliminate chip version check 10.9) :: BinPatch :: data len: 4
+0:146  0:000   - [05]: AppleUSBXHCI (XHCI - eliminate chip version check 10.10) :: BinPatch :: data len: 6
+0:146  0:000   - [06]: AppleUSBXHCI (XHCI - use single interrupter) :: BinPatch :: data len: 4
+0:146  0:000   - [07]: AppleUSBXHCI (XHCI - disable sleep code) :: BinPatch :: data len: 5
+0:146  0:000   - [08]: AppleUSBXHCI (XHCI - pm not present in ACPI) :: BinPatch :: data len: 5
+0:146  0:000   - [09]: AirPortBrcm4360 (Broadcom BCM43xx AirPort) :: BinPatch :: data len: 6
+0:146  0:000   - [10]: AppleIntelSNBGraphicsFB (HDMI+VGA) :: BinPatch :: data len: 60
+0:146  0:000   - [11]: AppleHDA (xml.zlib -> aml.zlib) :: BinPatch :: data len: 6
+0:146  0:000   - [12]: AppleHDA (AD1984 -> ALC269 Codec) :: BinPatch :: data len: 4
+0:146  0:000   - [13]: AppleHDA (AD1984 -> ALC269 FG-WF) :: BinPatch :: data len: 6
+0:146  0:000   - [14]: AppleHDA (AD1984 -> ALC269 ASCII) :: BinPatch :: data len: 8
+0:146  0:000   - [15]: AppleHDA (Zero out jne chk for 10.7 and 10.11) :: BinPatch :: data len: 4
+0:146  0:000   - [16]: AppleHDA (Zero our jne chk for 10.7 and up) :: BinPatch :: data len: 4
+0:146  0:000   - [17]: IOAHCIBlockStorage (SSD TRIM) :: BinPatch :: data len: 9
+0:146  0:000  Default theme: black_green
+0:146  0:000  Hiding entries with string System Reserved
+0:146  0:000  === [ LoadDrivers ] =======================================
+0:147  0:001  Loading AppleImageCodec-64.efi  status=Success
+0:148  0:001  Loading HFSPlus.efi  status=Success
+0:149  0:001   - driver needs connecting
+0:149  0:000  Loading NTFS.efi  status=Success
+0:152  0:002   - driver needs connecting
+0:152  0:000  Loading OsxAptioFix2Drv.efi  status=Success
+0:154  0:001  Loading AppleKeyAggregator-64.efi  status=Success
+0:156  0:001  Loading AppleUITheme-64.efi  status=Success
+0:156  0:000  Loading DataHubDxe-64.efi  status=Success
+0:187  0:031  Loading FirmwareVolume-64.efi  status=Success
+0:188  0:000  Loading FSInject-64.efi  status=Success
+0:188  0:000  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:188  0:000  Loading SMCHelper-64.efi  status=Success
+0:189  0:000  2 drivers needs connecting ...
+0:189  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:189  0:000  HFS+ driver loaded
+0:189  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:645  0:456  === [ InitScreen ] ========================================
+0:645  0:000  SetMaxResolution: found best mode 0: 1024x768
+0:766  0:121  Video mode change to mode #0: Success
+0:766  0:000   - set
+0:766  0:000  Console modes reported: 5, available modes:
+0:766  0:000   - [01]: 80x25
+0:766  0:000   - [03]: 128x40 (current mode)
+0:766  0:000   - [04]: 80x25
+0:766  0:000   - [05]: 100x31
+0:766  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,8BB4BAF3-A388-4449-A8C4-D617E6B41386,0x28,0x64000)
+0:767  0:000  Using embedded font: Success
+0:768  0:001  === [ GetMacAddress ] =====================================
+0:768  0:000  === [ ScanSPD ] ===========================================
+0:768  0:000  SMBus device : 8086 1C22 class=0C0500 status=Success
+0:768  0:000  SMBus CmdReg: 0x3
+0:768  0:000  Scanning SMBus [8086:1C22], mmio: 0xD0704004, ioport: 0xEFA0, hostc: 0x1
+0:768  0:000  Slots to scan [8]...
+0:769  0:000  SPD[0]: Type 11 @0x50
+0:788  0:018  Not using XMP because it is not present
+0:788  0:000  DDR speed 1600MHz
+0:788  0:000  Slot: 0 Type 24 4096MB 1600MHz Vendor=Silicon Power Computer & Communications PartNo=SP004GBSTU160N02 SerialNo=0000000000000000
+0:788  0:000  SPD[2]: Type 11 @0x52
+0:807  0:018  Not using XMP because it is not present
+0:807  0:000  DDR speed 1333MHz
+0:807  0:000  Slot: 2 Type 24 2048MB 1333MHz Vendor=Samsung PartNo=M471B5773DH0-CH9 SerialNo=0B06000C010B0C0E
+0:808  0:000  === [ GetAcpiTablesList ] =================================
+0:808  0:000  Found UEFI Acpi 2.0 RSDP at BAFFE014
+0:808  0:000  Get Acpi Tables List from RSDT:
+0:808  0:000   - [00]: FACP  QA09    len=116
+0:808  0:000   - [01]: SLIC  QA09    len=374
+0:808  0:000   - [02]: BOOT   len=40
+0:808  0:000   - [03]: SSDT  PtidDevc len=4200
+0:808  0:000   - [04]: ASF!  QA09    len=165
+0:808  0:000   - [05]: HPET  QA09    len=56
+0:808  0:000   - [06]: APIC  QA09    len=152
+0:808  0:000   - [07]: MCFG  QA09    len=60
+0:808  0:000   - [08]: SSDT  Cpu0Ist len=1854
+0:808  0:000   - [09]: SSDT  CpuPm len=2454
+0:808  0:000   - [10]: UEFI  QA09    len=62
+0:808  0:000   - [11]: UEFI  COMBUF len=66
+0:808  0:000   - [12]: UEFI  QA09    len=598
+0:808  0:000  Calibrated TSC Frequency = 2292550157 = 2292MHz
+0:808  0:000  === [ GetUserSettings ] ===================================
+0:808  0:000  USB FixOwnership: no
+0:808  0:000  Dropping 4 tables:
+0:808  0:000   - [00]: Drop table  signature="SSDT" (54445353) table-id="Cpu0Ist" (0074734930757043)
+0:808  0:000           - set table: 54445353,   74734930757043 to drop: yes
+0:808  0:000   - [01]: Drop table  signature="SSDT" (54445353) table-id="CpuPm" (0000006D50757043)
+0:808  0:000           - set table: 54445353,       6D50757043 to drop: yes
+0:808  0:000   - [02]: Drop table  signature="SSDT" (54445353) table-id="PtidDevc" (6376654464697450)
+0:808  0:000           - set table: 54445353, 6376654464697450 to drop: yes
+0:808  0:000   - [03]: Drop table  signature="DMAR" (52414D44)
+0:808  0:000           - set table: 52414D44,                0 to drop: no
+0:808  0:000   - final DSDT Fix mask=00000000
+0:808  0:000  PatchesDSDT: 15 requested
+0:808  0:000   - [00]: (TMR-RTC IRQ) lenToFind: 87, lenToReplace: 81
+0:808  0:000   - [01]: (BAT0 Override) lenToFind: 1758, lenToReplace: 1766
+0:808  0:000   - [02]: (ECRAM 16to8) lenToFind: 1068, lenToReplace: 1103
+0:808  0:000   - [03]: (B1B2-PM30-SLPE) lenToFind: 895, lenToReplace: 956
+0:808  0:000   - [04]: (Deactivate FOWM()) lenToFind: 52, lenToReplace: 6
+0:808  0:000   - [05]: (HPET 4xIRQ) lenToFind: 3, lenToReplace: 6
+0:808  0:000   - [06]: (ADP0 -> ADP1) lenToFind: 4, lenToReplace: 4
+0:808  0:000   - [07]: (SAT0 -> SATA) lenToFind: 4, lenToReplace: 4
+0:808  0:000   - [08]: (SAT1 -> SSAT) lenToFind: 4, lenToReplace: 4
+0:808  0:000   - [09]: (GFX0 -> IGPU) lenToFind: 4, lenToReplace: 4
+0:808  0:000   - [10]: (Q80 -> O80) lenToFind: 4, lenToReplace: 4
+0:808  0:000   - [11]: (Q81 -> O81) lenToFind: 4, lenToReplace: 4
+0:808  0:000   - [12]: (Q8A -> O8A) lenToFind: 4, lenToReplace: 4
+0:808  0:000   - [13]: (Q8C -> O8C) lenToFind: 4, lenToReplace: 4
+0:808  0:000   - [14]: (QAF -> OAF) lenToFind: 4, lenToReplace: 4
+0:808  0:000  EnableC7: yes
+0:808  0:000  EnableC6: yes
+0:808  0:000  EnableC4: no
+0:808  0:000  EnableC2: no
+0:808  0:000  C3Latency: 250
+0:808  0:000  Using ProductName from config
+0:808  0:000  ProductName: MacBookPro8,1
+0:808  0:000  Using latest BiosVersion from clover
+0:808  0:000  BiosVersion: MBP81.88Z.004D.B00.1708080655
+0:808  0:000  BiosReleaseDate: 08/08/17
+0:808  0:000  Using FirmwareFeatures from clover
+0:808  0:000  FirmwareFeatures: 0xC00DE137
+0:808  0:000  Using FirmwareFeaturesMask from clover
+0:808  0:000  FirmwareFeaturesMask: 0xFF1FFF3F
+0:808  0:000  PlatformFeature will not set in SMBIOS
+0:808  0:000  PlatformFeature: 0xFFFF
+0:808  0:000  Board-ID set from config as Mac-94245B3640C91C81
+0:818  0:009  === [ ScanVolumes ] =======================================
+0:818  0:000  Found 11 volumes with blockIO
+0:818  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1C,0x2)\Pci(0x0,0x0)\USB(0x2,0x0)
+0:819  0:001          USB volume
+0:819  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1C,0x2)\Pci(0x0,0x0)\USB(0x2,0x0)\HD(1,MBR,0x00000000,0x2,0xE6C9FE)
+0:821  0:001          Result of bootcode detection: bootable unknown (legacy)
+0:821  0:000          USB volume
+0:830  0:009  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)
+0:831  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)
+0:832  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:832  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,8BB4BAF3-A388-4449-A8C4-D617E6B41386,0x28,0x64000)
+0:832  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:832  0:000          This is SelfVolume !!
+0:832  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,2FDF6FE6-0F92-4BD3-BD17-D92C6E690C04,0x64028,0xDDFAC40)
+0:832  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(3,GPT,B47AE092-709B-4D17-A7FA-999E558F730C,0xDE5EC68,0x135F20)
+0:832  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(1,MBR,0x7CAF9F72,0x800,0x32000)
+0:833  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(2,MBR,0x7CAF9F72,0x32800,0xC31E000)
+0:833  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(3,MBR,0x7CAF9F72,0xC350800,0x186A0000)
+0:833  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(4,MBR,0x7CAF9F72,0x249F0800,0x15995000)
+0:833  0:000  === [ InitTheme ] =========================================
+0:836  0:002  Using theme 'black_green' (EFI\CLOVER\themes\black_green)
+0:836  0:000  OS main and drive as badge
+0:839  0:003  Loading font from ThemeDir: Success
+0:840  0:000  Choosing theme black_green
+0:840  0:000  after NVRAM boot-args=slide=0 kext-dev-mode=1
+0:840  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+0:840  0:000  found AppleSMC protocol
+0:869  0:028  === [ AddCustomEntries ] ==================================
+0:869  0:000  Custom entry 0 Title:"Recovery" Path:"\com.apple.recovery.boot\boot.efi" Type:10 Flags:0x2 matching Volume:"Recovery HD"
+0:869  0:000      Checking volume "CLOVER" (PciRoot(0x0)\Pci(0x1C,0x2)\Pci(0x0,0x0)\USB(0x2,0x0)\HD(1,MBR,0x00000000,0x2,0xE6C9FE)) ... skipped
+0:869  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,8BB4BAF3-A388-4449-A8C4-D617E6B41386,0x28,0x64000)) ... skipped
+0:869  0:000      Checking volume "MacOS" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,2FDF6FE6-0F92-4BD3-BD17-D92C6E690C04,0x64028,0xDDFAC40)) ... skipped
+0:869  0:000      Checking volume "Recovery HD" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(3,GPT,B47AE092-709B-4D17-A7FA-999E558F730C,0xDE5EC68,0x135F20)) ...         [!] Icon 20 (icons\vol_recovery.icns) not found (path: EFI\CLOVER\themes\black_green)
+0:869  0:000  Icon 20 decoded, pointer B7E00218
+0:869  0:000  match!
+0:870  0:000  Custom settings: <null string>.plist will  be applied
+0:870  0:000      Checking volume "System Rese" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(1,MBR,0x7CAF9F72,0x800,0x32000)) ... skipped
+0:870  0:000      Checking volume "osx" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(2,MBR,0x7CAF9F72,0x32800,0xC31E000)) ... skipped
+0:870  0:000      Checking volume "Backup" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(3,MBR,0x7CAF9F72,0xC350800,0x186A0000)) ... skipped
+0:870  0:000      Checking volume "Install macOS Sierra" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(4,MBR,0x7CAF9F72,0x249F0800,0x15995000)) ... skipped
+0:870  0:000  === [ ScanLoader ] ========================================
+0:870  0:000  - [01]: 'CLOVER'
+0:876  0:005  - [04]: 'EFI'
+0:880  0:003  - [05]: 'MacOS'
+0:882  0:002          AddLoaderEntry for Volume Name=MacOS
+0:884  0:001      Check if volume Is Hibernated:
+0:884  0:000      Check sleep image 'by signature':
+0:887  0:002      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+0:888  0:000      SleepImage name from pref: ImageVolume = 'MacOS', ImageName = '\private\var\vm\sleepimage'
+0:889  0:001      sleepimage not found -> Not Found
+0:889  0:000      hibernated: no - sign
+0:889  0:000          [!] Icon 17 (icons\vol_internal_hfs.icns) not found (path: EFI\CLOVER\themes\black_green)
+0:889  0:000  Icon 17 decoded, pointer B7D2B418
+0:927  0:037  - [06]: 'Recovery HD'
+0:927  0:000          AddLoaderEntry for Volume Name=Recovery HD
+0:927  0:000       skipped because path `PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(3,GPT,B47AE092-709B-4D17-A7FA-999E558F730C,0xDE5EC68,0x135F20)\com.apple.recovery.boot\boot.efii` already exists for another entry!
+0:927  0:000  - [07]: 'System Rese'
+0:927  0:000  - [08]: 'osx'
+0:928  0:000  - [09]: 'Backup'
+0:929  0:000  - [10]: 'Install macOS Sierra'
+0:962  0:032          AddLoaderEntry for Volume Name=Install macOS Sierra
+0:975  0:013  === [ AddCustomTool ] =====================================
+0:975  0:000  Custom tool 0 skipped because it is hidden.
+0:975  0:000          [!] Icon 8 (icons\tool_shell.png) not found (path: EFI\CLOVER\themes\black_green)
+0:975  0:000  Icon 8 decoded, pointer B7D1C498
+0:975  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+0:975  0:000  Checking EFI partition Volume 4 for Clover
+0:975  0:000   Found Clover
+0:975  0:000          [!] Icon 2 (icons\func_clover.png) not found (path: EFI\CLOVER\themes\black_green)
+0:975  0:000  Icon 2 decoded, pointer B7D1C298
+0:975  0:000          [!] Icon 1 (icons\func_options.png) not found (path: EFI\CLOVER\themes\black_green)
+0:975  0:000  Icon 1 decoded, pointer B7D8AC18
+0:975  0:000          [!] Icon 0 (icons\func_about.png) not found (path: EFI\CLOVER\themes\black_green)
+0:976  0:000  Icon 0 decoded, pointer B7D8AB98
+0:976  0:000          [!] Icon 5 (icons\func_reset.png) not found (path: EFI\CLOVER\themes\black_green)
+0:976  0:000  Icon 5 decoded, pointer B7D8AB18
+0:976  0:000          [!] Icon 6 (icons\func_shutdown.png) not found (path: EFI\CLOVER\themes\black_green)
+0:976  0:000  Icon 6 decoded, pointer B7D8AA98
+0:976  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+0:976  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(3,GPT,B47AE092-709B-4D17-A7FA-999E558F730C,0xDE5EC68,0x135F20)\com.apple.recovery.boot\boot.efii
+0:976  0:000    - Volume: 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(3,GPT,B47AE092-709B-4D17-A7FA-999E558F730C,0xDE5EC68,0x135F20)'
+0:976  0:000    - LoaderPath: '\com.apple.recovery.boot\boot.efi'
+0:976  0:000    - Guid = B47AE092-709B-4D17-A7FA-999E558F730C
+0:976  0:000  === [ FindStartupDiskVolume ] =============================
+0:976  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(3,GPT,B47AE092-709B-4D17-A7FA-999E558F730C,0xDE5EC68,0x135F20)
+0:976  0:000     - searching for that partition and loader '\com.apple.recovery.boot\boot.efi'
+0:976  0:000      - found entry 0. 'Boot Recovery from Recovery HD', Volume 'Recovery HD', '\com.apple.recovery.boot\boot.efi'
+0:976  0:000  Boot redirected to Entry 0. 'Boot Recovery from Recovery HD'
+0:976  0:000  DefaultIndex=0 and MainMenu.EntryCount=9
+1:554  0:577  GUI ready
