@@ -543,10 +543,10 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>No</string>
+			<string>YES</string>
 		</dict>
 		<key>Inject</key>
-		<false/>
+		<true/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
