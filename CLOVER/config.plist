@@ -12,34 +12,26 @@
 			<false/>
 			<key>Patches</key>
 			<array>
-			<dict>
-				<key>Comment</key>
-				<string>Zeroing 10ec0885 codec (patched by AppleHDA Patcher.app)</string>
-				<key>Find</key>
-				<data>
-				hQjsEA==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				AAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Patching 11d41984 with 10ec0269 codec (patched by AppleHDA Patcher.app)</string>
-				<key>Find</key>
-				<data>
-				hBnUEQ==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				aQLsEA==
-				</data>
-			</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Zeroing 10ec0885 codec (patched by AppleHDA Patcher.app)</string>
+					<key>Find</key>
+					<data>hQjsEA==</data>
+					<key>Name</key>
+					<string>AppleHDA</string>
+					<key>Replace</key>
+					<data>AAAAAA==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Patching 11d41984 with 10ec0269 codec (patched by AppleHDA Patcher.app)</string>
+					<key>Find</key>
+					<data>hBnUEQ==</data>
+					<key>Name</key>
+					<string>AppleHDA</string>
+					<key>Replace</key>
+					<data>aQLsEA==</data>
+				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>TMR-RTC IRQ</string>
@@ -228,7 +220,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>YES</string>
+			<string>3</string>
 		</dict>
 		<key>Inject</key>
 		<true/>
@@ -349,6 +341,18 @@
 				<string>AppleHDA</string>
 				<key>Replace</key>
 				<data>AAAAAA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AirPortBrcm4360 - fcvo, 10.12.x (credit the-darkvoid)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>gflSqgAAdSk=</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>gflSqgAAZpA=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
